@@ -1,6 +1,36 @@
 body {
-    background-color: Red;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-P {
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
     color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Different color for link backgrounds on hover */
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
 }
