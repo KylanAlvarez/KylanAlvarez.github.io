@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Three columns each 100px wide */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-content: center;
+}
+
+.item {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
